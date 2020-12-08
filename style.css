@@ -1,0 +1,86 @@
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#top {
+    display: flex;
+    justify-content: center;
+}
+#profile-pic img {
+    height: 175px;
+    padding: 60px 225px 90px 125px;
+}
+#info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 350px;
+    display: flex;
+    flex-direction: column;
+}
+#about {
+    display: flex;
+    flex-direction: row;
+}
+#details {
+    
+}
+h1 {
+    font-weight: lighter;
+}
+h1 img {
+    height: 23px;
+}
+#numbers {
+    font-size: 16px;
+    font-weight: 800;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#para p img {
+    height: 17px;
+}
+a {
+    color: blue;
+    text-decoration: none;
+}
+#last {
+    font-size: 12px;
+    font-weight: bold;
+}
+span {
+    color: gray;
+}
+button {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: white;
+}
+#dots {
+    font-size: 25px;
+    margin: 25px 0;
+}
+#bottom {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#bottom img {
+    padding: 0 15px;
+    height: 100px;
+}
+.box {
+    margin: 24px;
+    margin-bottom: 0;
+    text-align: center;
+}
+.box h3 {
+    margin: 0;
+}
